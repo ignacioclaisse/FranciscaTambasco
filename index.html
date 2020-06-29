@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portafolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.0.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <link rel="icon" type="image/png" href="imagenes/logo.png" sizes="32x32" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  </head>
+  <body>
+    <script src="three.js"></script>
+    <script src="WaterRefractionShader.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="Refractor.js"></script>
+    <script src="WebGL.js"></script>
+
+    <div id="header">
+      <div class="container-fluid" id="head">
+        <div class="row">
+          <div class="col-6">
+            <marquee behavior="scroll" duplicated="true" direction="left" id="fran">FRANCISCA TAMBASCO</marquee>
+          </div>
+          <div class="col-3" id="nav">
+            ABOUT
+          </div>
+          <div class="col-3" id="nav">
+            CONTACT
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+    <div id="espacio">
+
+    </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.your-class').slick({
+      infinite: true,
+      speed: 500,
+      autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true
+    });
+  });
+</script>
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Estudio del Centro Cultural San Martin
+          </div>
+          <div class="col-3">
+            Proyecto universitario
+          </div>
+          <div class="col-3">
+            2019
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <div id="container">
+                <canvas id="canvas"></canvas>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            Partiendo del análisis de la reforma del patio descubierto y la aparición de la estructura de vidrio como figura objetual, se percibe un cambio en las maneras de apropiación del espacio publico del centro cultural. A partir de allí se busca comprender a esta nueva adición como una pieza dentro de un gran tablero, cuestionando el lugar que ocupa dentro de la planta y como la aparición de estas figuras direcciones y guion la circulación peatonal que responde a las distintas configuraciones. La intención fue entonces analizar, en mayor o menos medida, la capacidad que poseían estos diversos elementos en atraer o repelar a la gente dependiendo de su lugar y función dentro del conjunto del edificio
+            <hr>
+            Materia • Diseño IV <br>
+            Cátedra • RED (Ex Varas) | FADU, UBA
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Parador
+          </div>
+          <div class="col-3">
+            Proyecto universitario
+          </div>
+          <div class="col-3">
+            2019
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <img src="imagenes/ver3.jpg" alt="" width="100%">
+          </div>
+          <div class="col-sm-3">
+            El parador se posiciona como una conjunción de refugios -junto a una red de agricultura urbana- que se distribuye a lo largo de la linea del tren San Martin y toma parte de sus alrededores, buscando así impulsar un modelo de ciudad en donde el acceso al alimento y al techo no son un privilegio. El parador se torna un lugar estático en donde detenerse, y a su vez funciona como una muestra dinámica en donde se replica la manera en que Buenos Aires puede crecer y desarrollarse.
+ El dispositivo funciona como un elemento que busca intervenir desde la pequeña escala, con la posibilidad de proyectarse hacia un infinito crecimiento -extendiéndose incluso por las demás lineas de tren de la ciudad-, buscando así modificar la concepción del escenario publico como lo entendemos al día de hoy
+            <hr>
+            Materia • Diseño IV <br>
+            Cátedra • RED (Ex Varas) | FADU, UBA
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Nido
+          </div>
+          <div class="col-3">
+            Identidad visual
+          </div>
+          <div class="col-3">
+            2019
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <div class="your-class">
+              <img src="imagenes/2019 nido/nido-02.png" alt="" width="100%">
+              <img src="imagenes/2019 nido/nido-01.png" alt="" width="100%">
+              <img src="imagenes/2019 nido/nido-03.png" alt="" width="100%">
+              <img src="imagenes/2019 nido/nido-04.png" alt="" width="100%">
+              <img src="imagenes/2019 nido/nido-05.png" alt="" width="100%">
+              <img src="imagenes/2019 nido/nido-06.png" alt="" width="100%">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            Nido es una disquería y librería ubicada en el entrepiso de un café llamado Patio Palermo. La pequeña y cuidada seleccion de libros y vinilos, reúne piezas importadas y nacionales, como nuevas y usadas y busca albergar tendencias superpuestas en la música experimental, el arte, el diseño, la arquitectura y la producción de conocimiento. De la misma manera el espacio da lugar a un intercambio cultural a travez del desarrollo de eventos y exhibiciones.
+            <hr>
+            Cliente • nido.discos.libros
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Otra ciudad: El desborde sur | La construcción de la forma urbana
+          </div>
+          <div class="col-3">
+            Proyecto universitario
+          </div>
+          <div class="col-3">
+            2018
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <img src="imagenes/lombardi-05.png" alt="" width="100%">
+          </div>
+          <div class="col-sm-3">
+            El trabajo se enfoca en un intervalo del área sur de Buenos Aires, definido por el borde entre la expansión continua de la grilla y los bajos del Riachuelo a partir de la barranca natural, entre La Boca y Parque Patricios, donde convergen formas que no se integran completamente al comportamiento extensivo de la ciudad regular: instituciones y programas de exclusión o reclusión (cárceles, hospitales de salud mental y enfermedades infecciosas, cementerios, mataderos, basurales...), arquitecturas e infraestructuras destinadas a la producción industrial de escala metropolitana y parques como contrapartes de matriz higienista, y su actual proceso de transformación en el marco de reconversiones en forma de distritos especiales.
+            <hr>
+            Materia • Morfología II <br>
+            Cátedra • Lombardi | FADU, UBA
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Complejo de viviendas
+          </div>
+          <div class="col-3">
+            Proyecto universitario
+          </div>
+          <div class="col-3">
+            2017
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <div class="your-class">
+              <img src="imagenes/2017 complejo viviendas/Planta-01.png" alt="" width="100%">
+              <img src="imagenes/2017 complejo viviendas/Planta 1 y 2-02.png" alt="" width="100%">
+              <img src="imagenes/2017 complejo viviendas/Planta 3 y 4-02-04.png" alt="" width="100%">
+              <img src="imagenes/2017 complejo viviendas/Tipologias-01.png" alt="" width="100%">
+              <img src="imagenes/2017 complejo viviendas/Collage-01.png" alt="" width="100%">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            El complejo de viviendas intenta blablalblajskldklsjf klds fdsfkdjfkldjg fgjfkdgjkfdbg fjkghfdjkgbdfjkf fjhdie;jrewiojioehirehiorehtrjkbrjktbhj hret;hureqhtuhrejthrekqhrio    hiohfie fhergteiuqg tu34 thew;hferutyou fhew;hriuewrg e’wyrhuieuwhrk
+            <hr>
+            Materia • Diseño II <br>
+            Cátedra • RED (Ex Varas) | FADU, UBA
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            Otra ciudad: El desborde sur | La construcción de la forma urbana
+          </div>
+          <div class="col-3">
+            CCPM
+          </div>
+          <div class="col-3">
+            2018
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <div class="your-class">
+              <img src="imagenes/2018 ccpm/estudioproyectos-01.png" alt="" width="100%">
+              <img src="imagenes/2018 ccpm/estudioproyectos-02.png" alt="" width="100%">
+              <img src="imagenes/2018 ccpm/estudioproyectos-03.png" alt="" width="100%">
+              <img src="imagenes/2018 ccpm/estudioproyectos-04.png" alt="" width="100%">
+              <img src="imagenes/2018 ccpm/estudioproyectos-05.png" alt="" width="100%">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            El trabajo fue realizado en el marco de la investigacion
+            <hr>
+            Estudio • CCPM
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <div class="container-fluid" id="item">
+        <div class="row">
+          <div class="col-6">
+            The Cloud
+          </div>
+          <div class="col-3">
+            Short film
+          </div>
+          <div class="col-3">
+            2020
+          </div>
+        </div>
+        <div class="row" id="segundo">
+          <div class="col-sm-9">
+            <div class="your-class">
+              <img src="imagenes/2020 the cloud/the cloud-01.png" alt="" width="100%">
+              <img src="imagenes/2020 the cloud/the cloud-02.png" alt="" width="100%">
+              <img src="imagenes/2020 the cloud/the cloud-05.png" alt="" width="100%">
+              <img src="imagenes/2020 the cloud/the cloud-04.png" alt="" width="100%">
+            </div>
+          </div>
+          <div class="col-sm-3">
+            This digital video piece is made up of excerpts from various online sources, transforming thecomputer screen into a sort of isolated room, floating in an unidentified medium, conveyingideas of loneliness, hyperconnection, anxiety, information overload, paranoia, anddisconnection.
+            In the same way that quarantine forces us all to depend on screens for communication withthe outside world—through virtual hangouts, virtual sports, and a constant need to displayanxiously accelerating levels of productivity in the midst of a global crisis—this piececompresses the oscillating moods of a life lived virtually through juxtaposed imagery, bothopposing and complementary, that speak to our current moment.
+            “The Cloud” is a video piece that reflects a virtual world: a room with a computer that allowsus to gaze on extracts of videos found online…
+            <hr>
+            Galeria • The Spot Paris
+          </div>
+        </div>
+    </div>
+
+    <hr id="hrd">
+
+    <script>
+
+          var scene = new THREE.Scene( );
+          var camera = new THREE.PerspectiveCamera( 75, $(container).width() / $(container).height(), 0.1, 10000 );
+          var clock = new THREE.Clock();
+          var refractor
+
+          var drawingSurface = document.getElementById( 'canvas' );
+          var renderer = new THREE.WebGLRenderer( { antialias: true, canvas: drawingSurface } );
+          renderer.setPixelRatio( window.devicePixelRatio );
+          renderer.setSize( $(container).width(), $(container).height() );
+
+          container.appendChild( renderer.domElement );
+
+          window.addEventListener('resize', function()
+          {
+            renderer.setSize( $(container).width(), $(container).height() );
+            camera.aspect = $(container).width() / $(container).height();
+            camera.updateProjectionMatrix();
+
+          }
+        );
+
+          controls = new THREE.OrbitControls( camera, renderer.domElement);
+
+          var geometry = new THREE.BoxGeometry( 2, 2, 2);
+
+          var cubeMaterials =
+          [
+            new THREE.MeshPhongMaterial( {map: new THREE.TextureLoader().load('img/1.png'), side: THREE.DoubleSide}),
+            new THREE.MeshPhongMaterial( {map: new THREE.TextureLoader().load('img/2.png'), side: THREE.DoubleSide}),
+            new THREE.MeshPhongMaterial( {map: new THREE.TextureLoader().load('img/3.png'), side: THREE.DoubleSide}),
+            new THREE.MeshPhongMaterial( {map: new THREE.TextureLoader().load('img/4.png'), side: THREE.DoubleSide}),
+            new THREE.MeshPhongMaterial( {map: new THREE.TextureLoader().load('img/5.png'), side: THREE.DoubleSide}),
+            new THREE.MeshPhongMaterial( {map: new  THREE.TextureLoader().load('img/6.png'), side: THREE.DoubleSide}),
+          ];
+
+          var skygeometry = new THREE.BoxGeometry( 900, 900, 900);
+
+          var skyMaterials =
+          [
+            new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/browncloud_ft.jpg'), side: THREE.DoubleSide}),
+            new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/browncloud_bk.jpg'), side: THREE.DoubleSide}),//
+            new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/browncloud_up.jpg'), side: THREE.DoubleSide}),
+            new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/browncloud_dn.jpg'), side: THREE.DoubleSide}),
+            new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/browncloud_rt.jpg'), side: THREE.DoubleSide}),
+            new THREE.MeshBasicMaterial( {map: new  THREE.TextureLoader().load('img/browncloud_lf.jpg'), side: THREE.DoubleSide}),
+          ];
+
+          var skyMaterials = new THREE.MeshFaceMaterial (skyMaterials);
+          var sky = new THREE.Mesh (skygeometry, skyMaterials)
+          scene.add(sky)
+
+          var material = new THREE.MeshFaceMaterial(cubeMaterials);
+          var cube = new THREE.Mesh(geometry, material);
+          //scene.add (cube);
+
+          camera.position.z = 3;
+
+          var refractorGeometry = new THREE.PlaneBufferGeometry( 10, 10 );
+
+          refractor = new THREE.Refractor( refractorGeometry, {
+            color: 0x999999,
+            side: THREE.DoubleSide,
+            textureWidth: 1024,
+            textureHeight: 1024,
+            shader: THREE.WaterRefractionShader
+
+          } );
+
+          refractor.position.set( 0, 0, 5 );
+
+          //scene.add( refractor );
+
+          var dudvMap = new THREE.TextureLoader().load( 'textures/waterdudv.jpg', function () {
+
+            animate();
+
+          } );
+
+          dudvMap.wrapS = dudvMap.wrapT = THREE.RepeatWrapping;
+          refractor.material.uniforms[ "tDudv" ].value = dudvMap;
+
+          var planegeometry = new THREE.PlaneGeometry( 5, 10 );
+          var planematerial = new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/13.jpg'), side: THREE.DoubleSide} );
+          var plane = new THREE.Mesh( planegeometry, planematerial );
+          scene.add( plane );
+          plane.position.set(-10,0,-10);
+          plane.rotateY(0.5);
+
+          var plane2geometry = new THREE.PlaneGeometry( 10, 10 );
+          var plane2material = new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/12.jpg'), side: THREE.DoubleSide} );
+          var plane2 = new THREE.Mesh( plane2geometry, plane2material );
+          scene.add( plane2 );
+          plane2.position.set(-3,0,-10);
+          plane2.rotateY(0.1);
+
+
+          var plane3geometry = new THREE.PlaneGeometry( 10, 10 );
+          var plane3material = new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/11.jpg'), side: THREE.DoubleSide} );
+          var plane3 = new THREE.Mesh( plane3geometry, plane3material );
+          scene.add( plane3 );
+          plane3.position.set( 4,0,-12);
+          plane3.rotateY(-0.2);
+
+          var plane4geometry = new THREE.PlaneGeometry( 10, 10 );
+          var plane4material = new THREE.MeshBasicMaterial( {map: new THREE.TextureLoader().load('img/10.jpg'), side: THREE.DoubleSide} );
+          var plane4 = new THREE.Mesh( plane4geometry, plane4material );
+          scene.add( plane4 );
+          plane4.position.set( 12,0,-7);
+          plane4.rotateY(-0.5);
+
+          var Light = new THREE.DirectionalLight(0xFFFFFF, 2);
+          Light.position.set(0,1,0);
+          scene.add(Light);
+
+          var Light2 = new THREE.DirectionalLight(0xFFFFFF, 1);
+          Light2.position.set(0,-1,0);
+          scene.add(Light2);
+
+          var aLight = new THREE.AmbientLight(0xFFFFFF, 0.4);
+
+          scene.add(aLight);
+
+          var update = function ( )
+          {
+            //cube.rotation.x += 0.01;
+            //cube.rotation.y += 0.01;
+
+            var time = Date.now() * 0.0005;
+
+            Light.position.x = Math.sin ( time * 0.7) * 3;
+
+          };
+
+          function animate() {
+
+            requestAnimationFrame( animate );
+
+            render();
+
+          }
+
+          var render = function ( )
+          {
+            refractor.material.uniforms[ "time" ].value += clock.getDelta();
+            renderer.render( scene, camera);
+          };
+
+          var GameLoop = function ( )
+          {
+            requestAnimationFrame( GameLoop );
+
+            update( );
+            render( );
+
+          };
+
+          GameLoop( );
+    </script>
+
+  </body>
+</html>
